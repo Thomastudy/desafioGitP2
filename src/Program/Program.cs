@@ -3,10 +3,10 @@ Console.WriteLine(Substraction.Substract(10, 1));
 Console.WriteLine(Multiplication.Multiply(3, 3));
 Console.WriteLine(Division.Divide(18, 2));
 
-public class Division
+public class Substraction
 {
-    public static double Divide(int a, int b)
+    public static int Substract(int a, int b)
     {
-        return (double)a / b;
+        return a - b;
     }
 }
