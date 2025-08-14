@@ -10,3 +10,11 @@ public class Division
         return (double)a / b;
     }
 }
+// Esta clase implementa la operación multiplicación
+public class Multiplication
+{
+    public static int Multiply(int a, int b)
+    {
+        return a * b;
+    }
+}
